@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="app_full_title">Echo – Spy Mic &amp; Hearing Aid</string>
+    <string name="app_tagline">Amplify the world around you.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings &amp; Privacy</string>
+
+    <!-- Power Ring & States -->
+    <string name="state_idle">STANDBY</string>
+    <string name="state_starting">INITIALIZING...</string>
+    <string name="state_listening">AMPLIFYING</string>
+    <string name="state_stopping">STOPPING...</string>
+    <string name="state_error">AUDIO ERROR</string>
+    <string name="action_tap_to_start">Tap to Amplify</string>
+    <string name="action_tap_to_stop">Tap to Stop</string>
+
+    <!-- Controls -->
+    <string name="dial_gain_title">MIC GAIN</string>
+    <string name="dial_gain_desc">Microphone capture pre-amp gain</string>
+    <string name="dial_intensity_title">CLARITY BOOST</string>
+    <string name="dial_intensity_desc">Acoustic speech contour &amp; limiter</string>
+
+    <!-- Visualizer & Meters -->
+    <string name="meter_peak">PEAK</string>
+    <string name="meter_rms">RMS</string>
+    <string name="warning_clipping">CLIPPING DETECTED</string>
+    <string name="warning_speaker_feedback">⚠️ Headphone Recommended: Speaker output may create feedback loops at high gain.</string>
+
+    <!-- Audio Output Routing -->
+    <string name="route_headphones">🎧 Wired Headphones Active</string>
+    <string name="route_bluetooth">📶 Bluetooth Headset Connected</string>
+    <string name="route_speaker">📢 Phone Speaker (Caution)</string>
+
+    <!-- Theme Modes -->
+    <string name="theme_section_title">Display &amp; Outdoor Theme</string>
+    <string name="theme_daylight_mode">High-Contrast Daylight Mode</string>
+    <string name="theme_daylight_desc">Optimized for high visibility and glare reduction in bright outdoor sunlight.</string>
+    <string name="theme_deep_space">Deep Space (Dark)</string>
+    <string name="theme_daylight">Daylight (Outdoor)</string>
+
+    <!-- Studio Mode -->
+    <string name="studio_mode_title">Studio DSP Mode</string>
+    <string name="studio_mode_desc">Unlocks ultra-low noise filtering, harmonic speech enhancement, and limiter protection for 1 hour.</string>
+    <string name="studio_mode_action">Watch Ad to Unlock 1 Hr</string>
+    <string name="studio_mode_active">Studio DSP Active: %1$d min left</string>
+
+    <!-- Hardware Effects -->
+    <string name="effect_ns_title">Hardware Noise Suppressor</string>
+    <string name="effect_aec_title">Acoustic Echo Canceler</string>
+    <string name="effect_agc_title">Automatic Gain Control</string>
+    <string name="effect_supported">Hardware Supported</string>
+    <string name="effect_unsupported">Unsupported on this device</string>
+    <string name="effect_enabled">Active</string>
+    <string name="effect_disabled">Bypassed</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Echo Microphone Service</string>
+    <string name="notification_channel_desc">Active foreground service for real-time audio amplification.</string>
+    <string name="notification_title">Echo Live Amplification Active</string>
+    <string name="notification_text">Microphone capture is active in foreground.</string>
+    <string name="notification_action_stop">Stop Echo</string>
+
+    <!-- Settings & Disclosures -->
+    <string name="settings_title">Audio &amp; Safety Settings</string>
+    <string name="privacy_title">Privacy &amp; Data Transparency</string>
+    <string name="privacy_statement">Echo operates entirely in volatile RAM. No audio is ever recorded to disk, uploaded to the cloud, or transmitted across the network. All processing occurs locally on your device in real-time.</string>
+    <string name="medical_disclaimer_title">Medical Device Disclaimer</string>
+    <string name="medical_disclaimer_text">Echo is an assistive personal sound amplification product (PSAP). It is NOT a medically certified hearing aid and does not replace prescribed audiologist treatment or medical consultation.</string>
+    <string name="ad_consent_title">Advertising &amp; Consent</string>
+    <string name="ad_consent_desc">Google AdMob and Google User Messaging Platform (UMP) are integrated to provide ad-supported features.</string>
+    <string name="ad_consent_reset">Reset Privacy Consent Options</string>
+
+    <!-- Permission Dialogs -->
+    <string name="permission_mic_title">Microphone Access Required</string>
+    <string name="permission_mic_desc">Echo requires microphone permission to amplify environmental audio in real time. Capture begins ONLY when you tap the power button.</string>
+    <string name="permission_mic_grant">Grant Permission</string>
+    <string name="permission_mic_denied">Microphone permission was denied. Echo cannot operate without microphone access.</string>
+
+    <!-- Error Messages -->
+    <string name="error_init_failed">Failed to initialize AudioRecord or AudioTrack at 44.1kHz.</string>
+    <string name="error_focus_lost">Audio focus was claimed by another application.</string>
+    <string name="error_headset_unplugged">Headset disconnected. Amplification paused to prevent feedback.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Deep Space Dark Colors -->
+    <color name="pure_black">#000000</color>
+    <color name="hologram_blue">#00F0FF</color>
+    <color name="laser_red">#FF003C</color>
+    <color name="cyber_yellow">#FCE205</color>
+    <color name="dark_surface">#0A0F14</color>
+    <color name="dark_card">#121920</color>
+    <color name="text_primary">#E6EDF3</color>
+    <color name="text_secondary">#8B949E</color>
+    <color name="accent_glow">#3300F0FF</color>
+    <color name="divider_color">#1F2937</color>
+
+    <!-- Daylight Outdoor High-Contrast Colors -->
+    <color name="daylight_background">#F8FAFC</color>
+    <color name="daylight_surface">#FFFFFF</color>
+    <color name="daylight_card">#E2E8F0</color>
+    <color name="daylight_card_border">#CBD5E1</color>
+    <color name="daylight_primary">#0284C7</color>
+    <color name="daylight_text_primary">#0F172A</color>
+    <color name="daylight_text_secondary">#475569</color>
+    <color name="daylight_divider">#E2E8F0</color>
+</resources>

@@ -62,18 +62,7 @@ Echo is built with privacy as the #1 priority:
 
 ---
 
-## 🚀 Build Instructions
-
-To build this project locally using **Android Studio**:
-
-1. Clone the repository:
-   `git clone https://github.com/CartonIQ/Echo.git`
-2. Open the project in Android Studio.
-3. Sync Gradle and build the APK.
-
-*(Note: The project requires an `echo.jks` keystore to build the release version).*
-
----
+## 🚀 Build By Mohd Arsh /CartonIQ 
 
 ## 👨‍💻 Developer
 
